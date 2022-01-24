@@ -1,5 +1,9 @@
-# Reconocimiento_Facial
+Reconocimiento Facial
+-----------------------------------------------------------------------------------------------------------------------------------
+
 Saludos querido Lector es importante que leas esto. Aquí hallarás requisitos y el funcionamiento del programa para que no tengas problemas al momento de ejecutarlo.(INDISPENSABLE ESTA LECTURA)
+
+------------------------------------------------------------------------------------------------------------------------------------
 
 Para asegurar la funcionalidad de el proyecto de Reconocimiento Facial, es necesario que hayas creado una carpeta llamada "Reconocimiento_Facial",
 y dentro de está cuentes con tres cosas importantes:
