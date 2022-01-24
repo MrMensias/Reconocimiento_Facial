@@ -1,0 +1,62 @@
+# Reconocimiento_Facial
+Saludos querido Lector es importante que leas esto. Aquí hallarás requisitos y el funcionamiento del programa para que no tengas problemas al momento de ejecutarlo.(INDISPENSABLE ESTA LECTURA)
+
+Para asegurar la funcionalidad de el proyecto de Reconocimiento Facial, es necesario que hayas creado una carpeta llamada "Reconocimiento_Facial",
+y dentro de está cuentes con tres cosas importantes:
+
+        * Archivo "main.py"(Con el código proveido en el presente repositorio)
+        
+        * Archivo "file.py"(Copiado o descargado del presente repositorio)
+        
+        * Carpeta de nombre "Images" (Dentro de ella deben estar sub_carpetas, con los nombres las personas que van a ser "reconocidas" por el programa.)
+        
+------------------------------------------------------------------------------------------------------------------------------------
+
+FUNCIONAMIENTO
+
+El funcionamiento es así:
+
+       1. Primero dentro de la carpeta "Images" crearemos una nueva carpeta con nuestro nombre y dentro esta guardaremos fotos(en formato .jpg o .png)
+       en donde nuestro rostro se vea claro. Recomendación: No gafas, No gorras, Rostro cerca, Buena iluminación, minimo 10 fotos.
+       (Nota Importante: Si queremos que el programa reconozca a más personas solo debemos repetir este proceso para cada persona que deseemos sea reconocida.)
+       
+       
+       2. Después deberás ejecutar el archivo "file.py" el cual explorará lás imágenes de cada carpeta dentro de la carpeta "Images".
+       
+       
+       3. Una vez reconocidas lás imágenes, identificará las características de dicha persona y las etiquetará con el nombre de la carpeta en
+       la que se encuentre.(Ejemplo en Capítulo 3 Parte 3.3)
+       
+       
+       4. Esta relación que estableció el programa entre características y nombre las anotará en dos archivos nuevos llamados "trainer.yml" y 
+       "labels.pickle" (Ambos serán generados automaticamente al ejecutar "file.py"). Veremos dichos archivos junto a nuestros archivos iniciales "main.py" 
+       y "file.py", dentro de la carpeta "Reconocimiento_Facial"(Creada en Capítulo 3 Parte 3.2).
+       
+       
+       5.Cuando estén los 4 archivos dentro de la carpeta "Reconocimiento_facial", estaremos listos para ejecutar el archivo "main.py", asi que 
+       lo ejecutaremos.
+       
+       
+       6. Al ejecutar el archivo "main.py" empezará a funcionar el programa. Podremos observar en pantalla lo que nuestra cámara capture en tiempo real
+       y veremos que encerrará nuestro rostro y arriba de el colocará un nombre.(Para cerrar el programa aplasta la tecla "Escpacio")
+       
+       
+       7. Si aplastas en tu teclado la letra "c" el programa tomará una foto de tu rostro la cual será guardada dentro de la carpeta "Images".
+       Esta función fué añadida con el fin de poder añadir facilmente más personas al programa de Reconocimiento Facial. Recomendación: Tomar al menos 20
+       fotos, cada una con una poscición de la cará diferente.(Asegurate de que antes de tomar la foto, veas al cuadrado azul encerrando tu rostro.)
+       
+       
+       8. Si realizaste el paso 7, es necesario que guardes las imágenes tomadas dentro de una carpeta con el nombre de la persona que aparece en la foto.
+       (Importante: La carpeta con el nombre de dicha persona y con sus fotos dentro, debe encontrarse dentro de la carpeta "Images")
+       
+       
+       9. En el caso de haber añadido una nueva persona al programa(Paso 8), es indispensable que ejecutes nuevamente el archivo "file.py", esto para que 
+       se registren sus características y pueda ser reconocida posteriormente.
+       
+       10. Ejecuta el archivo "main.py" e invita a la persona que añadiste al programa recientemente, para ver si es reconocida.
+       
+       11. Si ya terminaste de usar el programa aplasta la tecla "Espacio" para cerrar el programa. FIN!
+        
+        
+  Parte importante del código fue sacada de la página Youtube, de un video titulado "OpenCV Python TUTORIAL #4 for Face Recognition and Identification",
+  dicho contenido audiovisual fue creado por el canal CodingEntrepeneurs.
