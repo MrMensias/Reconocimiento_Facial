@@ -1,3 +1,9 @@
+"""Antes de empezar, al autor del proyecto de IA creado por Carlos Mensias, debe aclarar que parte importante del código de este programa,
+fué sacado de un video de la plataforma Youtube llamado "OpenCV Python TUTORIAL #4 for Face Recognition and Identification" y dicho video es perteneciente
+al canal CodingEntrepeneurs
+"""
+
+
 import numpy as np
 import os
 from PIL import Image
